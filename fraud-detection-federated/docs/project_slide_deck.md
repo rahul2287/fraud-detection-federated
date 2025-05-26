@@ -47,4 +47,4 @@
 
 ## Slide 7: Contact
 - Rahul Autade | rahul.autade@ieee.org
-- GitHub: https://github.com/rahul-autade/fraud-detection-federated
+- GitHub: https://github.com/rahul2287/fraud-detection-federated
