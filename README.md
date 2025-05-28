@@ -4,13 +4,13 @@
 
 ---
 
-## 🧠 Overview
+## Overview
 
 This project introduces a novel approach to fraud detection in the financial sector using **federated learning**, allowing multiple banks or payment processors to collaboratively train AI models without exposing sensitive customer data. The system is built with real-time applicability and regulatory compliance in mind, providing a modern, secure framework for cross-institutional fraud intelligence.
 
 ---
 
-## 💡 Key Features
+## Key Features
 
 - Detects fraudulent patterns using federated neural networks across distributed data nodes
 - Supports privacy-preserving computation without centralized data pooling
@@ -19,7 +19,7 @@ This project introduces a novel approach to fraud detection in the financial sec
 
 ---
 
-## 🔍 Innovation & Novelty
+## Innovation & Novelty
 
 This is one of the **first open-source prototypes** to simulate real-time fraud detection in a **federated learning** context for the financial industry. It avoids data centralization by keeping customer data **on-device** or **on-prem**, aligning with GDPR and financial compliance standards.
 
@@ -27,7 +27,7 @@ The architecture and algorithms were fully designed and developed by **Rahul Aut
 
 ---
 
-## 📊 Impact & Adoption
+## Impact & Adoption
 
 - ⭐ Demonstrates a working framework for institutions to evaluate federated fraud models
 - 🏦 Applicable to banks, payment gateways, and e-wallet platforms
@@ -35,7 +35,7 @@ The architecture and algorithms were fully designed and developed by **Rahul Aut
 
 ---
 
-## 👤 Author & Contributions
+## Author & Contributions
 
 Created and maintained by **Rahul Autade**
 
@@ -46,5 +46,5 @@ Created and maintained by **Rahul Autade**
 
 ---
 
-## 🖼️ Project Structure
+## Project Structure
 
