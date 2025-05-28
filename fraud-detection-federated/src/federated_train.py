@@ -11,8 +11,8 @@ y = df["is_fraud"].values.astype(np.int32)
 
 # Simulate 3 clients
 client_data = [
-    (X[:2], y[:2]),
-    (X[2:4], y[2:4]),
+    (X[:2], y[:2]) ,
+    (X[2:4], y[2:4]) ,
     (X[4:], y[4:])
 ]
 
@@ -20,6 +20,7 @@ def create_tf_dataset(X, y):
     return tf.data.Dataset.from_tensor_slices((X, y)).batch(2)
 
 federated_train_data = [create_tf_dataset(*d) for d in client_data]
+
 
 # Model function
 def model_fn():
