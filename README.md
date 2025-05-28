@@ -1,4 +1,4 @@
-# 🛡️ fraud-detection-federated
+# fraud-detection-federated
 
 > A privacy-preserving fraud detection system using federated learning to analyze transaction patterns across distributed financial institutions without sharing raw data.
 
@@ -29,9 +29,9 @@ The architecture and algorithms were fully designed and developed by **Rahul Aut
 
 ## Impact & Adoption
 
-- ⭐ Demonstrates a working framework for institutions to evaluate federated fraud models
-- 🏦 Applicable to banks, payment gateways, and e-wallet platforms
-- 🧠 Forms the basis for future AI-based fraud engines in high-risk transactional environments
+-  Demonstrates a working framework for institutions to evaluate federated fraud models
+-  Applicable to banks, payment gateways, and e-wallet platforms
+-  Forms the basis for future AI-based fraud engines in high-risk transactional environments
 
 ---
 
