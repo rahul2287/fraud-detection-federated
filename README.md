@@ -49,24 +49,46 @@ Created and maintained by **Rahul Autade**
 ## Project Structure
 fraud-detection-federated/
 │
-├── 📁 src/                       # Core source code
-│   ├── client.py                 # Federated client logic (local training)
-│   ├── server.py                 # Aggregation and coordination logic
-│   ├── model.py                  # Fraud detection model definition
-│   ├── data_loader.py            # Data loading and preprocessing
-│   └── utils.py                  # Utility functions (e.g., data split, logging)
+├── 📁 src/                      # Core source code
+│   ├── client_simulator.py      # Federated client logic (local training)
+│   ├── model_builder.py         # Fraud detection model definition
+│   ├── model_inference.py       # Fraud detection model interface
+│   ├── main.py                  # Fraud Main funcation
+│   ├── data_loader.py           # Data loading and preprocessing
+│   └── utils.py                 # Utility functions (e.g., data split, logging)
+│   ├── data_loader.py           # Data loading and preprocessing
+│   ├── preprocessing.py         # Preprocessing
+│   ├── test_main.py             # Fraud test funcation
+│   └── trainer.py               # Utility functions (e.g., data split, logging)
 │
-├── 📁 data/                       # Data assets
-│   └── sample_transactions.csv   # Sample synthetic or anonymized dataset
-│
+├── 📁 data/                      # Data assets
+│   ├── high_fraud_data.csv       # High Hit Rated Fraud Data
+│   ├── low_fraud_data.csv        # Low Hit Rated Fraud Data
+│   ├── merchant_pattern_data.csv # Merchant Pattern Fraud Data
+│   ├── synthetic_data.csv        # Synthetic Fraud Data
+│    
 ├── 📁 notebooks/                 # Jupyter notebooks for demo or experiments
+│   └── explore_fraud_data.ipynb
 │   └── federated_training_demo.ipynb
+│   └── fraud_detection_demo.ipynb
+│   └── model_inference_demo.ipynb
 │
-├── 📁 results/                   # Output results and logs
-│   ├── metrics.json              # Evaluation metrics (e.g., accuracy, AUC)
-│   └── training_logs.txt         # Logs from training sessions
+├── 📁 docs/                               # repository documentation
+│   ├── fraud_detection_presentation.pptx  # Fraud Detection Presentation
+│   └── fraud_flowchart.png                # Fraud flow flowchart
+│   ├── fraud_model_metrics.png            # Fraud Model Metrics
+│   └── high_fraud_data_preview.png        # High rated Fraud data preview
+│   ├── industry_standards.md              # Inductry Standard Fraud detection 
+│   └── low_fraud_data_preview.png         # Low rated Fraud data preview
+│   ├── merchant_pattern_data_preview.png  # Mechant Patteren Fraud Data preview
+│   └── project_roadmap.md                 # Project Roadmap
+│   ├── project_slide_deck.md              # Project Structure
+│   └── synthetic_data_preview.png         # Synthetic Data Fraud Data preview
+│   └── system_architecture.png            # Fraud Detection System Architecture
+
 │
 ├── requirements.txt             # Python package dependencies
 ├── README.md                    # Project description, usage, and documentation
 ├── LICENSE                      # License file (e.g., MIT, Apache 2.0)
 └── .gitignore                   # Files/folders to ignore in Git tracking
+
