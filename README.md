@@ -49,7 +49,7 @@ Created and maintained by **Rahul Autade**
 ## Project Structure
 fraud-detection-federated/
 │
-├── 📁 src/                        # Core source code
+├── 📁 src/                       # Core source code
 │   ├── client.py                 # Federated client logic (local training)
 │   ├── server.py                 # Aggregation and coordination logic
 │   ├── model.py                  # Fraud detection model definition
