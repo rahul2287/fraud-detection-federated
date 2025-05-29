@@ -47,4 +47,26 @@ Created and maintained by **Rahul Autade**
 ---
 
 ## Project Structure
-
+fraud-detection-federated/
+│
+├── 📁 src/                        # Core source code
+│   ├── client.py                 # Federated client logic (local training)
+│   ├── server.py                 # Aggregation and coordination logic
+│   ├── model.py                  # Fraud detection model definition
+│   ├── data_loader.py            # Data loading and preprocessing
+│   └── utils.py                  # Utility functions (e.g., data split, logging)
+│
+├── 📁 data/                       # Data assets
+│   └── sample_transactions.csv   # Sample synthetic or anonymized dataset
+│
+├── 📁 notebooks/                 # Jupyter notebooks for demo or experiments
+│   └── federated_training_demo.ipynb
+│
+├── 📁 results/                   # Output results and logs
+│   ├── metrics.json              # Evaluation metrics (e.g., accuracy, AUC)
+│   └── training_logs.txt         # Logs from training sessions
+│
+├── requirements.txt             # Python package dependencies
+├── README.md                    # Project description, usage, and documentation
+├── LICENSE                      # License file (e.g., MIT, Apache 2.0)
+└── .gitignore                   # Files/folders to ignore in Git tracking
