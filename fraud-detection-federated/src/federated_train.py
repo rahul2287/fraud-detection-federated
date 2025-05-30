@@ -49,4 +49,4 @@ for round_num in range(1, 6):
 # Save model from the final round
 final_model = model_fn().keras_model
 final_model.save("../models/federated_model_saved")
-print("Model saved successfully.")
+print("Model is saved successfully.")
