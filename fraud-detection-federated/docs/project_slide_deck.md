@@ -11,8 +11,8 @@
 
 ## Slide 2: Key Challenges Addressed
 - Data privacy laws (e.g., GDPR)
-- Fraud detection accuracy
-- Cross-institution collaboration
+- Fraud detection accuracy.
+- Cross-institution collaboration.
 
 ---
 
