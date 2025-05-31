@@ -49,3 +49,54 @@ Run the main analysis:
 
 ```bash
 python src/main.py --summary --fraud --charts
+```
+
+Run federated training:
+
+```bash
+python src/federated_train.py
+```
+
+Run unit tests:
+
+```bash
+python -m unittest src/test_main.py
+```
+
+Run inference:
+
+```bash
+python src/model_inference.py --model models/my_model.h5
+```
+
+## 🧩 New Extended Modules
+
+- **`feature_engineering.py`**  
+  Handles custom transformations, feature selection, and domain-specific fraud indicators.
+
+- **`hyperparameter_tuning.py`**  
+  Automates grid search and random search strategies for model optimization.
+
+- **`data_augmentation.py`**  
+  Generates synthetic variations of existing transaction data to improve generalization.
+
+- **`visualization_tools.py`**  
+  Contains reusable visualization functions for EDA, comparison plots, and learning curves.
+
+- **`synthetic_data_generator.py`**  
+  Creates large-scale synthetic transaction datasets using statistical rules or GANs.
+
+- **`federated_metrics.py`**  
+  Computes per-client and global metrics during and after federated rounds.
+
+- **`client_manager.py`**  
+  Manages client configurations, data access, and local computation logic.
+
+- **`deployment_utils.py`**  
+  Scripts to export models and preprocessors for deployment in cloud or edge environments.
+
+- **`explainability.py`**  
+  Provides SHAP/Grad-CAM-based explainability for black-box model decisions.
+
+- **`monitoring_dashboard.py`**  
+  Backend logic for serving training and inference metrics on a live dashboard.
