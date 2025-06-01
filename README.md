@@ -6,7 +6,7 @@
 
 ## Overview
 
-This project introduces a novel approach to fraud detection in the financial sector using **federated learning**, allowing multiple banks or payment processors to collaboratively train AI models without exposing sensitive customer data. The system is built with real-time applicability and regulatory compliance in mind, providing a modern, secure framework for cross-institutional fraud intelligence.
+This project introduces a novel approach to fraud detection in the financial sector using **federated learning**, allowing multiple banks or payment processors to collaboratively train AI models without exposing sensitive customer data. The system is built with real-time applicability and regulatory compliance in mind, providing a modern, secure framework for cross institutional fraud intelligence.
 
 ---
 
