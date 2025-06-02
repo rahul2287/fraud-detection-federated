@@ -1,4 +1,4 @@
-# Readme placeholder for docs
+# Readme for docs
 
 
 ### 📁 `docs/` Directory
