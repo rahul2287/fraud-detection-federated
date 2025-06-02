@@ -1,12 +1,12 @@
-# Readme placeholder for notebooks
+# Readme for notebooks
 
-### 📁 `notebooks/` Directory
+### `notebooks/` Directory
 
 This folder contains Jupyter notebooks used for visualizing data, testing model outputs, and demonstrating project functionality in an interactive format.
 
 ---
 
-#### 📄 Contents:
+#### Contents:
 
 * `fraud_detection_demo.ipynb`
   A demo notebook that:
@@ -17,7 +17,7 @@ This folder contains Jupyter notebooks used for visualizing data, testing model 
 
 ---
 
-#### 📌 Purpose:
+####  Purpose:
 
 These notebooks are intended for:
 
@@ -27,5 +27,5 @@ These notebooks are intended for:
 
 ---
 
-> 🧠 These notebooks can be run locally or in Google Colab for convenient sharing and testing.
+>  These notebooks can be run locally or in Google Colab for convenient sharing and testing.
 
