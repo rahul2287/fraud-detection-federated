@@ -3,13 +3,13 @@
 
 ---
 
-### 📁 `data/` Directory
+###  `data/` Directory
 
 This folder contains **synthetic transaction data** used to simulate fraud detection scenarios across federated clients.
 
 ---
 
-#### 📄 Files Included:
+####  Files Included:
 
 * `synthetic_data.csv`:
   A sample dataset of anonymized transactions including:
@@ -25,7 +25,7 @@ This folder contains **synthetic transaction data** used to simulate fraud detec
 
 ---
 
-#### ⚠️ Note:
+####  Note:
 
 No real or personally identifiable information (PII) is used. All data is **entirely synthetic**, created for demonstration and testing purposes in this open-source prototype.
 
