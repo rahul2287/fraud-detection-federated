@@ -1,13 +1,13 @@
 # Readme for docs
 
 
-### 📁 `docs/` Directory
+###  `docs/` Directory
 
 This folder contains documentation and visual assets related to the architecture, design, and technical implementation of the **Federated Fraud Detection** project.
 
 ---
 
-#### 📄 Contents:
+####  Contents:
 
 * `system_architecture.png`
   A visual overview of the federated learning setup, showing communication flow between the central coordinator and distributed clients.
@@ -17,7 +17,7 @@ This folder contains documentation and visual assets related to the architecture
 
 ---
 
-#### 📌 Purpose:
+####  Purpose:
 
 These materials are intended to support:
 
