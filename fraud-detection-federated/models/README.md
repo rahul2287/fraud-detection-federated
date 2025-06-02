@@ -1,4 +1,4 @@
-# Readme placeholder for models
+# Readme for models
 
 
 ### 📁 `models/` Directory
