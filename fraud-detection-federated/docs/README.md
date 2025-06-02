@@ -22,6 +22,5 @@ This folder contains documentation and visual assets related to the architecture
 These materials are intended to support:
 
 * Technical understanding of the system design
-* Documentation for contributors
-* Evidence for academic, professional, or immigration use (e.g., EB1A petition)
+
 
